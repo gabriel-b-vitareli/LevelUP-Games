@@ -13,7 +13,8 @@ API para cadastro e consulta de Database de uma loja de jogos fictícia, feita u
 - [1. Criando o banco de dados](#1-️-criando-o-banco-de-dados)
 - [2. Adicionando os jogos](#2--adicionando-os-jogos)
 - [3. Visualizando os jogos](#3--visualizando-os-jogos)
-- [Estrutura de pastas](#-estrutura-de-pastas)
+- [4. Como rodar o projeto](#-como-rodar)
+
 
 ---
 
@@ -186,7 +187,7 @@ O JSON final retornado pelo `GET` fica assim:
 
 ---
 
-## 🖥️ Como rodar:
+## 🖥️ Como rodar
 
 Para rodar o código, um arquivo está faltando nesse repositório, sendo ele o `conexao.php` (por razões óbvias de segurança). Portanto ele deve ser criado com o seguinte código:
 
@@ -204,3 +205,11 @@ $pdo = new PDO (
     $senha
 );
 ```
+
+## ⚠️ OBSERVAÇÃO IMPORTANTE:
+
+Quando o servidor for iniciado, não há um arquivo index.php. Portanto precisamos indicar o caminho correto corrigindo qual arquivo queremos acessar. No nosso caso:
+`localhost:8000/jogos.php`
+Isso também vale para o endereço inserido no Thunder Client.
+
+Alternativamente, clique [aqui](localhost:8000/jogos.php).
