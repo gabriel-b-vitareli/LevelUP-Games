@@ -5,6 +5,8 @@ API para cadastro e consulta de Database de uma loja de jogos fictícia, feita u
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 
+Além da extensão [Thunder Client](https://img.shields.io/badge/teste?link=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Drangav.vscode-thunder-client).
+
 ---
 
 ## 📑 Sumário
@@ -69,7 +71,7 @@ Após o código estar pronto e rodando no servidor `localhost`, já podemos adic
   <img src="./assets/01-banco-vazio.png" alt="Banco de dados vazio" width="700">
 </p>
 
-Agora vamos adicionar os jogos usando o **Thunder Client**, enviando cada jogo via `POST` no seguinte formato JSON:
+Agora vamos adicionar os jogos usando o [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client), enviando cada jogo via `POST` no seguinte formato JSON:
 
 ```json
 {
@@ -122,7 +124,7 @@ Agora vamos adicionar os jogos usando o **Thunder Client**, enviando cada jogo v
 
 ## 3. 📋 Visualizando os jogos
 
-Usando `GET` pelo Thunder Client, conseguimos ver todos os jogos cadastrados, ordenados alfabeticamente pelos seus títulos:
+Usando `GET` pelo [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client), conseguimos ver todos os jogos cadastrados, ordenados alfabeticamente pelos seus títulos:
 
 <p align="center">
   <img src="./assets/07-get-todos-jogos.png" alt="GET - Todos os jogos" width="700">
@@ -213,4 +215,4 @@ Quando o servidor for iniciado, não há um arquivo index.php. Portanto precisam
 `localhost:8000/jogos.php`
 Isso também vale para o endereço inserido no Thunder Client.
 
-Alternativamente, clique [aqui](localhost:8000/jogos.php).
+Alternativamente, clique [aqui](http://localhost:8000/jogos.php).
