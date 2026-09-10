@@ -13,7 +13,7 @@ API para cadastro e consulta de Database de uma loja de jogos fictícia, feita u
 - [1. Criando o banco de dados](#1-️-criando-o-banco-de-dados)
 - [2. Adicionando os jogos](#2--adicionando-os-jogos)
 - [3. Visualizando os jogos](#3--visualizando-os-jogos)
-- [4. Como rodar o projeto](#-como-rodar)
+- [4. Como rodar o projeto](#como-rodar)
 
 
 ---
@@ -187,6 +187,7 @@ O JSON final retornado pelo `GET` fica assim:
 
 ---
 
+<a id="como-rodar"></a>
 ## 🖥️ Como rodar
 
 Para rodar o código, um arquivo está faltando nesse repositório, sendo ele o `conexao.php` (por razões óbvias de segurança). Portanto ele deve ser criado com o seguinte código:
